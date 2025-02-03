@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '0705351d634e492d8815fd254c4b5135',
+  rootNotionPageId: '18fa791ea7ca8066b69be151d519c42b',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Guide de Pierre le bg',
+  name: 'VisitMatch',
   domain: 'pierre-le-bg.it',
-  author: 'SAMSON Pierre',
+  author: 'Visit Match',
 
   // open graph metadata (optional)
-  description: 'Guide de Pierre le bg pour faire les projets',
+  description: 'For travel inspiration',
 
   // social usernames (optional)
   //twitter: 'transitive_bs',
-  github: 'SAMSONPierre',
-  linkedin: 'pierre-samson',
+  // github: 'SAMSONPierre',
+  // linkedin: 'pierre-samson',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
